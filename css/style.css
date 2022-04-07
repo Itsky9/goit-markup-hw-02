@@ -1,0 +1,186 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* --- top-top-top --- */
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link-port {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-left: 453px;
+  margin-right: 853px;
+}
+.link-port > li {
+  margin-left: 51px;
+  margin-right: 51px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* contact - TOP -- */
+.link-mail-1:hover,
+.link-mail-1:focus {
+  color: #2196f3;
+}
+.link-contact-1:hover,
+.link-contact-1:focus {
+  color: #2196f3;
+}
+/*contact-mail*/
+
+.link-mail-1 {
+  color: #757575;
+}
+.link-contact-1 {
+  color: #757575;
+}
+
+/*contact-mail*/
+.contact-top {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+/* Ефективное решения для вашего бизнеса */
+.main-glavnyy-1 {
+  margin-top: 200px;
+  margin-bottom: 280px;
+  margin-left: 452px;
+  margin-right: 452px;
+}
+.link-section-1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-glavnyy-botton {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* Наши преимущество */
+
+.zadachi-rabota {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.zadachi-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.zadachi {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+/* Чем мы занимаемся */
+
+.main-glavnyy-3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.nabor {
+  justify-content: center;
+  display: flex;
+  margin-top: 73px;
+  margin-bottom: 73px;
+  padding-left: 215;
+  padding-right: 215px;
+}
+
+/* Наша команда*/
+
+.main-glavnyy-4 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.main-glavnyy-4 {
+  margin-top: 108px;
+  margin-bottom: 108px;
+}
+.comanda {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+/* contact-botton */
+.address {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.link-mail-2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.contact-botton {
+  list-style-type: none;
+}
+.link-contact-2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(4, 4, 4, 0.6);
+}
+
+.link-mail-2:hover,
+.link-mail-2:focus {
+  color: #2196f3;
+}
+.link-contact-2:hover,
+.link-contact-2:focus {
+  color: #2196f3;
+}
