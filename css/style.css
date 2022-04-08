@@ -1,93 +1,87 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
-/* --- top-top-top --- */
-.link:hover,
-.link:focus {
+/* ------------------Лого-------------*/
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
-}
-.link {
-  color: #212121;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link-port {
-  display: flex;
+.header-logo-studio {
+  color: #000000;
+}
+/*----------меню-top--------*/
+.header-list-item {
   list-style-type: none;
-  justify-content: center;
-  margin-left: 453px;
-  margin-right: 853px;
 }
-.link-port > li {
-  margin-left: 51px;
-  margin-right: 51px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-/* contact - TOP -- */
-.link-mail-1:hover,
-.link-mail-1:focus {
+.header-link:hover,
+.header-list:focus {
   color: #2196f3;
 }
-.link-contact-1:hover,
-.link-contact-1:focus {
-  color: #2196f3;
-}
-/*contact-mail*/
-
-.link-mail-1 {
-  color: #757575;
-}
-.link-contact-1 {
-  color: #757575;
-}
-
-/*contact-mail*/
-.contact-top {
+.header-link-current {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  list-style-type: none;
+  color: #2196f3;
+}
+.header-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
-/* Ефективное решения для вашего бизнеса */
-.main-glavnyy-1 {
-  margin-top: 200px;
-  margin-bottom: 280px;
-  margin-left: 452px;
-  margin-right: 452px;
+/*------------КОНТАКТЫ---------*/
+.link-contact:hover,
+.link-contact:focus {
+  color: #2196f3;
 }
-.link-section-1 {
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/*-------------Вступ----------*/
+.main-link {
+  width: 1600px;
+  height: 120px;
+  left: 59px;
+  top: 100px;
+  background: #2f303a;
+}
+.main-item {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.main-glavnyy-botton {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
 }
 
-/* Наши преимущество */
-
-.zadachi-rabota {
+.header-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*---------Наши преимущества--------*/
+.hero-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.hero-link-info {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -95,92 +89,136 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-.zadachi-info {
+.hero-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*----------Чем занимаешься--------*/
+.images-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*-----------Наша команда----------*/
+.personal-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.personal-link-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.personal-item-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*--------------Лого меню-----------*/
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.footer-logo-studio {
+  color: #ffffff;
+}
+/*------------Контакт-----------*/
+.address-info {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-contact:hover,
+.address-contact:focus {
+  color: #ffffff;
+}
+.address-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ================== ПОРТФОЛИО ===============*/
+/*--------------------контакты-----------------*/
+.hero-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.hero-logo-studio {
+  color: #000000;
+}
+.header-link-current {
+  color: #2196f3;
+}
+/*-------------Главное меню-----------------*/
+.button-item-current {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-item:hover,
+.button-item:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*-------------Наши проекты---------------*/
+
+.images-product {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.images-item-product {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
-.zadachi {
-  display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
-}
-
-/* Чем мы занимаемся */
-
-.main-glavnyy-3 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.nabor {
-  justify-content: center;
-  display: flex;
-  margin-top: 73px;
-  margin-bottom: 73px;
-  padding-left: 215;
-  padding-right: 215px;
-}
-
-/* Наша команда*/
-
-.main-glavnyy-4 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.main-glavnyy-4 {
-  margin-top: 108px;
-  margin-bottom: 108px;
-}
-.comanda {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 94px;
-}
-
-/* contact-botton */
-.address {
-  list-style-type: none;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-.link-mail-2 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(0, 0, 0, 0.6);
-}
-.contact-botton {
-  list-style-type: none;
-}
-.link-contact-2 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(4, 4, 4, 0.6);
-}
-
-.link-mail-2:hover,
-.link-mail-2:focus {
-  color: #2196f3;
-}
-.link-contact-2:hover,
-.link-contact-2:focus {
-  color: #2196f3;
+/*------------Контакты-----------*/
+.address-contact-info {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
 }
