@@ -3,7 +3,7 @@ body {
 }
 /* ------------------Лого-------------*/
 :root {
-  --color--: #2196f3;
+  --color: #2196f3;
   --black--color: #000000;
   --text-color: #212121;
   --background-color: #2f303a;
@@ -48,11 +48,15 @@ body {
 }
 
 /*------------КОНТАКТЫ---------*/
+.link {
+  text-decoration: none;
+}
 .link-contact:hover,
 .link-contact:focus {
   color: var(--color);
 }
 .link-contact {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -157,6 +161,7 @@ body {
   color: #ffffff;
 }
 /*------------Контакт-----------*/
+
 .address-info {
   font-family: "Roboto";
   font-style: normal;
