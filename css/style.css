@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-/* ------------------Лого-------------*/
 :root {
   --color: #2196f3;
   --black--color: #000000;
@@ -12,7 +8,13 @@ body {
   --background: #238de4;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* ------------------Лого-------------*/
+
 .header-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -28,9 +30,14 @@ body {
   list-style-type: none;
 }
 .header-link:hover,
-.header-list:focus {
+.header-link:focus {
   color: var(--color);
 }
+
+.header-list-item:hover,
+.header-list-item:focus {
+}
+
 .header-link-current {
   text-decoration: none;
   font-weight: 500;
@@ -41,7 +48,6 @@ body {
 }
 .header-link {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,10 +74,6 @@ body {
 }
 /*-------------Вступ----------*/
 .main-link {
-  width: 1600px;
-  height: 120px;
-  left: 59px;
-  top: 100px;
   background: var(--background-color);
 }
 .main-item {
@@ -87,6 +89,14 @@ body {
   background-color: var(--background);
 }
 .header-btn {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   border: none;
   cursor: pointer;
   background-color: var(--color);
@@ -111,7 +121,6 @@ body {
   color: var(--text-color);
 }
 .hero-info {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -143,7 +152,6 @@ body {
   color: var(--text-color);
 }
 .personal-item-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -151,13 +159,10 @@ body {
 }
 /*--------------Лого меню-----------*/
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: var(--background-color);
 }
 .footer-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -171,9 +176,6 @@ body {
 /*------------Контакт-----------*/
 
 .address-info {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -184,10 +186,8 @@ body {
   color: var(--color);
 }
 .address-contact {
-  text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -197,6 +197,7 @@ body {
 /* ================== ПОРТФОЛИО ===============*/
 /*--------------------контакты-----------------*/
 .hero-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -211,13 +212,10 @@ body {
   color: var(--color);
 }
 /*-------------Главное меню-----------------*/
-.button-item-current {
-  background: var(--color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .button-item:hover,
 .button-item:focus {
+  cursor: pointer;
   color: var(--block-color);
   background-color: var(--color);
 }
@@ -238,12 +236,11 @@ body {
 .images-product {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.2;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
 .images-item-product {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -251,13 +248,10 @@ body {
 }
 /*------------Контакты-----------*/
 .address-contact-info {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: var(--background-color);
 }
 .address {
+  font-style: normal;
   color: var(--block-color);
   text-decoration: none;
 }
