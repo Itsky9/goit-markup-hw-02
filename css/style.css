@@ -34,10 +34,6 @@ body {
   color: var(--color);
 }
 
-.header-list-item:hover,
-.header-list-item:focus {
-}
-
 .header-link-current {
   text-decoration: none;
   font-weight: 500;
@@ -104,6 +100,8 @@ body {
 }
 
 /*---------Наши преимущества--------*/
+.hero-item {
+}
 .hero-item {
   font-weight: 700;
   font-size: 36px;
@@ -212,13 +210,37 @@ body {
   color: var(--color);
 }
 /*-------------Главное меню-----------------*/
+.button-item {
+  cursor: pointer;
+}
 
+.button-item.main {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--background);
+}
 .button-item:hover,
 .button-item:focus {
-  cursor: pointer;
-  color: var(--block-color);
-  background-color: var(--color);
+  background: var(--background);
+  color: #ffffff;
 }
+.button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
 .product-button {
   position: absolute;
   width: 1px;
